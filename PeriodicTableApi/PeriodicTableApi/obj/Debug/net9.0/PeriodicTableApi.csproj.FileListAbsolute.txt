@@ -148,3 +148,4 @@ C:\Users\Maarifa 1\Desktop\periodic-table-web-api\PeriodicTableApi\PeriodicTable
 C:\Users\Maarifa 1\Desktop\periodic-table-web-api\PeriodicTableApi\PeriodicTableApi\obj\Debug\net9.0\PeriodicTableApi.pdb
 C:\Users\Maarifa 1\Desktop\periodic-table-web-api\PeriodicTableApi\PeriodicTableApi\obj\Debug\net9.0\PeriodicTableApi.genruntimeconfig.cache
 C:\Users\Maarifa 1\Desktop\periodic-table-web-api\PeriodicTableApi\PeriodicTableApi\obj\Debug\net9.0\ref\PeriodicTableApi.dll
+C:\Users\Maarifa 1\Desktop\periodic-table-web-api\PeriodicTableApi\PeriodicTableApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

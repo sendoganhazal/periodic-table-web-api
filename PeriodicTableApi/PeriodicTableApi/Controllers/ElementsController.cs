@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PeriodicTableApi.Repositories;
 
 namespace PeriodicTableApi.Controllers
@@ -19,7 +20,7 @@ namespace PeriodicTableApi.Controllers
         {
             try
             {
-                var elements = _context.Elements.ToList ( );
+                var elements = _context.Elements.Include(e => e.Image).ToList();
                 return Ok ( elements );
             }
             catch ( Exception ex )

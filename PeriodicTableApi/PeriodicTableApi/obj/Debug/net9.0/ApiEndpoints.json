@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "PeriodicTableApi.Controllers.ElementsController",
+    "Method": "GetElements",
+    "RelativePath": "api/Elements",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
