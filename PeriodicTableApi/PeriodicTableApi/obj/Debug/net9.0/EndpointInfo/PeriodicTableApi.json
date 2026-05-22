@@ -16,6 +16,63 @@
           }
         }
       }
+    },
+    "/api/Elements/{atom}": {
+      "get": {
+        "tags": [
+          "Elements"
+        ],
+        "parameters": [
+          {
+            "name": "atom",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Elements/categories": {
+      "get": {
+        "tags": [
+          "Elements"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Elements/category/{category}": {
+      "get": {
+        "tags": [
+          "Elements"
+        ],
+        "parameters": [
+          {
+            "name": "category",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": { }
