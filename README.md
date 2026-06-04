@@ -6,7 +6,7 @@ A lightweight, high-performance Web API that provides comprehensive chemical, ph
 
 ## 🚀 Live Demo & Deployment
 The API is containerized using Docker and successfully deployed on **Render**.
-* **Live API URL:** `https://your-app-name.onrender.com/api/elements` *(Replace with your actual Render URL)*
+* **Live API URL:** `https://periodic-table-web-api-fjzo.onrender.com/api/elements`
 * **Interactive API Documentation:** `https://periodic-table-web-api-fjzo.onrender.com/swagger/index.html`
 
 ---
