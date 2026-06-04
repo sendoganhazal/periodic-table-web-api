@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PeriodicTableApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62726cffd6685072a3d5bb765743c4de9dc002cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43ec9a25d65313aa5015d2a1f805f507ddbbd3f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("PeriodicTableApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PeriodicTableApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
