@@ -5,7 +5,19 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Elements": {
+    "/api/categories": {
+      "get": {
+        "tags": [
+          "Categories"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/elements": {
       "get": {
         "tags": [
           "Elements"
@@ -17,7 +29,7 @@
         }
       }
     },
-    "/api/Elements/{atom}": {
+    "/api/elements/{atom}": {
       "get": {
         "tags": [
           "Elements"
@@ -30,40 +42,6 @@
             "schema": {
               "type": "integer",
               "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Elements/categories": {
-      "get": {
-        "tags": [
-          "Elements"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Elements/category/{category}": {
-      "get": {
-        "tags": [
-          "Elements"
-        ],
-        "parameters": [
-          {
-            "name": "category",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
             }
           }
         ],
